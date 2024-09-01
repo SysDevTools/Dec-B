@@ -1,0 +1,29 @@
+{
+  "name": "@dec-b/cli",
+  "version": "0.1.0",
+  "description": "CLI para Dec-B, um sistema de controle de versão com um fluxo de trabalho rígido.",
+  "bin": {
+    "dcb": "./cli/dcb.js"
+  },
+  "scripts": {
+    "test": "bats ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SysDevTools/Dec-B"
+  },
+  "keywords": [
+    "versioning",
+    "cli",
+    "git",
+    "workflow"
+  ],
+  "author": "RoldProf",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  },
+  "devDependencies": {
+    "bats": "^1.4.1"
+  }
+}

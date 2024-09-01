@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="250"
+   height="100"
+   viewBox="0 0 250 100"
+   id="svg10"
+   sodipodi:docname="dec-b.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="63.993162"
+     inkscape:cy="-78.135297"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="2391"
+     inkscape:window-y="1341"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <defs
+     id="defs1" />
+  <g
+     id="g2"
+     transform="matrix(0.98560016,0,0,0.99214326,-11.719597,0.73744381)">
+    <g
+       transform="matrix(0.87356728,0,0,0.8466396,222.9557,90.418361)"
+       id="g5">
+      <path
+         fill="#1c9aea"
+         d="m -122.8,-68.9 h -14.1 c -1.5,0 -1.9,0.7 -1.9,1.9 v 37.8 c 0,1.1 0.4,1.8 1.9,1.8 h 14.1 c 7.5,0 16.9,-4.3 16.9,-14.2 v -13.1 c 0,-9.8 -9.4,-14.2 -16.9,-14.2 z m 7,26.4 c 0,4.1 -2.9,6.3 -7,6.3 h -6.1 v -23.9 h 6.1 c 4.1,0 7,2.3 7,6.3 z"
+         id="path1" />
+      <path
+         fill="#1c9aea"
+         d="m -67.8,-36.2 h -20.1 v -8.4 H -71 c 1.5,0 1.8,-0.6 1.8,-1.8 v -4.9 c 0,-1.1 -0.3,-1.8 -1.8,-1.8 H -87.9 V -60 h 19 c 1.5,0 1.9,-0.7 1.9,-1.8 V -67 c 0,-1.2 -0.4,-1.9 -1.9,-1.9 H -96 c -1.4,0 -1.8,0.7 -1.8,1.9 v 37.8 c 0,1.1 0.4,1.8 1.8,1.8 h 28.2 c 1.5,0 1.8,-0.7 1.8,-1.8 v -5.2 c 0,-1.1 -0.3,-1.8 -1.8,-1.8 z"
+         id="path2" />
+      <path
+         fill="#1c9aea"
+         d="m -26.4,-39.7 c 0,-1.5 -0.5,-2.1 -1.9,-2.1 h -6.2 c -1.3,0 -1.5,1 -1.7,2.2 -0.5,3.1 -3.2,4.3 -6.6,4.3 -4.1,0 -7,-2.3 -7,-6.3 v -13.1 c 0,-3.9 2.9,-6.3 7,-6.3 3.4,0 5.2,1 6.5,3 0.5,0.8 0.6,2 1.9,2 h 6.1 c 1.4,0 1.9,-0.3 1.9,-1.8 -0.8,-8 -8.6,-12 -16.4,-12 -7.5,0 -16.8,4.3 -16.8,14.2 v 14.9 c 0,9.9 9.3,14.2 16.8,14.2 7.8,0 16.4,-5.1 16.4,-13.2 z"
+         id="path3" />
+      <path
+         fill="#1c9aea"
+         d="m -1,-48.5 h -17.1 c -1.1,0 -1.8,0.4 -1.8,1.8 v 4.9 c 0,1.5 0.7,1.9 1.8,1.9 H -1 c 1.2,0 1.9,-0.4 1.9,-1.9 v -4.9 c 0,-1.4 -0.7,-1.8 -1.9,-1.8 z"
+         id="path4" />
+      <path
+         fill="#1c9aea"
+         d="m 38.3,-48.9 c 0.6,-0.2 4.6,-2.3 4.6,-8.6 0,-5.9 -4.4,-11.4 -14.6,-11.4 H 10.6 c -1.4,0 -1.8,0.7 -1.8,1.8 v 37.9 c 0,1.1 0.4,1.8 1.8,1.8 h 18.5 c 8.8,0 15,-4.1 15,-12.1 0,-6.8 -5.3,-9.2 -5.8,-9.4 z m -9,12.5 H 18.7 V -60 h 9.6 c 3.2,0 5.2,0.6 5.2,3.5 0,2.4 -1.6,3.8 -5.2,3.8 v 0 h -0.8 c -1.5,0 -1.9,0.7 -1.9,1.8 v 4.8 c 0,1.1 0.4,1.8 1.9,1.8 h 1.4 c 3,0 5.2,0.9 5.2,3.9 0,2.8 -1.7,4 -4.8,4 z"
+         id="path5" />
+    </g>
+  </g>
+  <g
+     id="g1">
+    <path
+       id="path16"
+       style="color:#000000;fill:#c83737;stroke-width:1.01562;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+       d="M 25.26018,70.874243 25.231153,50.165179 25.204066,29.620835 11.086584,21.055779 c -3.5006951,-2.12445 -7.8769787,0.530402 -7.8772281,4.778697 v 24.430342 24.43238 c 2.573e-4,4.248285 4.376536,6.903137 7.8772281,4.778698 z" />
+    <path
+       id="path47"
+       style="color:#000000;fill:#ff5555;stroke-width:1.01562;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+       d="M 59.658223,51.275487 43.387129,61.447002 27.154733,71.596152 v 18.378674 c 2.49e-4,4.2483 4.376533,6.90315 7.87723,4.77871 L 55.165239,82.538356 75.298521,70.323184 c 3.50179,-2.12393 3.50179,-7.435506 0,-9.559435 z" />
+    <path
+       id="path47-3"
+       style="color:#000000;fill:#ff8080;stroke-width:1.01562;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+       d="M 59.658222,49.25618 43.387128,39.084665 27.154733,28.935515 V 10.556839 c 2.49e-4,-4.2482941 4.376533,-6.9031461 7.87723,-4.7787071 l 20.133275,12.2151811 20.133283,12.21517 c 3.50179,2.12393 3.50179,7.435506 0,9.559435 z" />
+  </g>
+</svg>
