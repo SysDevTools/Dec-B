@@ -15,34 +15,42 @@ Através destes procedimentos (e scripts)  , ele simplifica e padroniza ações 
 
 </div>
 
+## Integração com FlowED
+
+O Dec-B faz parte de um ecossistema maior de ferramentas de desenvolvimento e gestão de projetos. Ele se integra perfeitamente ao [FlowED](https://github.com/SysDevTools/FlowED), um sistema de gestão de projetos que foca em ambientes acadêmicos e pequenas equipes. Enquanto o FlowED gerencia o fluxo do projeto e as práticas ágeis, o Dec-B assegura que o versionamento de código siga um fluxo rígido e padronizado, evitando problemas comuns como conflitos de merge e desorganização do histórico de commits.
+
+Essa integração entre FlowED e Dec-B proporciona uma abordagem estruturada e controlada para o desenvolvimento de software, garantindo que cada aspecto do ciclo de vida do projeto, desde a gestão até o versionamento, esteja alinhado e otimizado.
+
+Sendo assim, o Dec-B pode ser utilizado em conjunto com o FlowED para maximizar a eficiência do gerenciamento de projetos e versionamento. Para mais detalhes sobre como utilizar o Dec-B com o FlowED, consulte o [README](https://github.com/SysDevTools/FlowED?tab=readme-ov-file#flowed-flow-education-driven) do FlowED.
+
 ## Estrutura de pastas do projeto
 
 A estrutura de documentação de todo o projeto `Dec-B` é intencionalmente super-modularizada para atender ao cenário acadêmico em que será utilizada. Essa abordagem permite que cada função, filosofia, regra e procedimento seja documentado de forma independente, facilitando a atribuição de tarefas específicas para os alunos. Cada pequeno documento pode ser alvo de estudos e exercícios, permitindo uma evolução gradual e detalhada do conhecimento.
 
 <pre style="line-height: 1.2; font-size: 12px;">
 📦 <a href="./README.md">Dec-B/</a>
-├── 📂 <a href="./cli/README.md">cli/</a>
+├── 📂 cli/
 │   ├── (...)
 │   └── 📜 <a href="./cli/README.md">README.md</a>
-├── 📂 <a href="./docs/pt-br/README.md">docs/</a>
+├── 📂 docs/
 │   └── 📂 <a href="./docs/pt-br/README.md">pt-br/</a>
-│       ├── 📂 <a href="./docs/pt-br/branch-structure/">branch-structure/</a>
+│       ├── 📂 branch-structure/
 │       │   ├── 📜 <a href="./docs/pt-br/branch-structure/main.md">main.md</a>
 │       │   ├── 📜 <a href="./docs/pt-br/branch-structure/develop.md">develop.md</a>
 │       │   ├── 📜 <a href="./docs/pt-br/branch-structure/release-xyz.md">release-xyz.md</a>
 │       │   └── 📜 <a href="./docs/pt-br/branch-structure/release-xyz-user.md">release-xyz-user.md</a>
-│       ├── 📂 <a href="./docs/pt-br/cycles/">cycles/</a>
+│       ├── 📂 cycles/
 │       │   ├── 📜 <a href="./docs/pt-br/cycles/init.md">init.md</a>
 │       │   ├── 📂 <a href="./docs/pt-br/cycles/release/">release/</a>
-│       │   │   ├── 📂 <a href="./docs/pt-br/cycles/release/init/">init/</a>
+│       │   │   ├── 📂 init/
 │       │   │   │   └── 📜 <a href="./docs/pt-br/cycles/release/init/README.md">README.md</a>
-│       │   │   ├── 📂 <a href="./docs/pt-br/cycles/release/pull/">pull/</a>
+│       │   │   ├── 📂 pull/
 │       │   │   │   └── 📜 <a href="./docs/pt-br/cycles/release/pull/README.md">README.md</a>
-│       │   │   ├── 📂 <a href="./docs/pt-br/cycles/release/push/">push/</a>
+│       │   │   ├── 📂 push/
 │       │   │   │   └── 📜 <a href="./docs/pt-br/cycles/release/push/README.md">README.md</a>
-│       │   │   ├── 📂 <a href="./docs/pt-br/cycles/release/rebase/">rebase/</a>
+│       │   │   ├── 📂 rebase/
 │       │   │   │   └── 📜 <a href="./docs/pt-br/cycles/release/rebase/README.md">README.md</a>
-│       │   │   ├── 📂 <a href="./docs/pt-br/cycles/release/tag/">tag/</a>
+│       │   │   ├── 📂 tag/
 │       │   │   │   └── 📜 <a href="./docs/pt-br/cycles/release/tag/README.md">README.md</a>
 │       │   │   └── 📜 <a href="./docs/pt-br/cycles/release/README.md">README.md</a>
 │       ├── 📜 <a href="./docs/pt-br/commit-strategy.md">commit-strategy.md</a>
