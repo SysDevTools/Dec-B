@@ -1,6 +1,6 @@
 # Dec-B (Decoupled Branches)  
 
-Dec-B (Decoupled Branches)   é um sistema de versionamento e um padrão de workflow para gerenciamento de código com comandos próprios baseados em node.js e comandos para [Git](https://git-scm.com/)  , sendo assim, também, um framework para ele. 
+**Dec-B** (Decoupled Branches - Branches Desacopladas) é um sistema de versionamento e um padrão de workflow para gerenciamento de código com comandos próprios baseados em node.js e comandos para [Git](https://git-scm.com/)  , sendo assim, também, um framework para ele. 
 
 Através destes procedimentos (e scripts)  , ele simplifica e padroniza ações comuns de versionamento como:
 - Inicialização de repositórios.
@@ -17,7 +17,7 @@ Através destes procedimentos (e scripts)  , ele simplifica e padroniza ações 
 
 ## Estrutura de pastas do projeto
 
-A estrutura de documentação de todo o projeto `Dec-B` é intencionalmente super-modularizada para atender ao cenário acadêmico em que será utilizada. Essa abordagem permite que cada, função, filosofia, regra e procedimento seja documentado de forma independente, facilitando a atribuição de tarefas específicas para os alunos. Cada pequeno documento pode ser alvo de estudos e exercícios, permitindo uma evolução gradual e detalhada do conhecimento.
+A estrutura de documentação de todo o projeto `Dec-B` é intencionalmente super-modularizada para atender ao cenário acadêmico em que será utilizada. Essa abordagem permite que cada função, filosofia, regra e procedimento seja documentado de forma independente, facilitando a atribuição de tarefas específicas para os alunos. Cada pequeno documento pode ser alvo de estudos e exercícios, permitindo uma evolução gradual e detalhada do conhecimento.
 
 <pre style="line-height: 1.2; font-size: 12px;">
 📦 <a href="./README.md">Dec-B/</a>
@@ -46,10 +46,12 @@ A estrutura de documentação de todo o projeto `Dec-B` é intencionalmente supe
 │       │   │   │   └── 📜 <a href="./docs/pt-br/cycles/release/tag/README.md">README.md</a>
 │       │   │   └── 📜 <a href="./docs/pt-br/cycles/release/README.md">README.md</a>
 │       ├── 📜 <a href="./docs/pt-br/commit-strategy.md">commit-strategy.md</a>
-│       ├── 📜 <a href="./docs/pt-br/semver.md">semver.md</a>
-│       └── 📜 <a href="./docs/pt-br/README.md">README.md</a>
+│       ├── 📜 <a href="./docs/pt-br/guide.md">guide.md</a>
+│       └── 📜 <a href="./docs/pt-br/semver.md">semver.md</a>
 ├── 📜 <a href="./.gitignore">.gitignore</a>
 ├── 📜 <a href="./LICENCE">LICENCE</a>
+├── 📜 <a href="./package.json">package.json</a>
+├── 📜 <a href="./package-lock.json">package-lock.json</a>
 └── 📜 <a href="./README.md">README.md</a>
 </pre>
 
@@ -126,5 +128,31 @@ Para detalhes sobre como instalar e executar os testes, veja [Instruções de Te
 ### [Push](https://git-scm.com/docs/git-push)  
 ### [Squash](https://git-scm.com/docs/merge-options#Documentation/merge-options.txt---squash)  
 ### [Versões Semânticas](./docs/pt-br/semantic-versions.md)  
-Versões semânticas seguem o padrão Major.Minor.Patch (e.g., 1.0.0)  . 
+Versões semânticas seguem o padrão Major.Minor.Patch (e.g., 1.0.0).
+
+## Contribuição
+
+Para contribuir com o projeto `Dec-B`, siga estas etapas:
+
+1. Crie um fork do repositório.
+2. Clone o seu fork para sua máquina local.
+3. Crie uma branch para a sua contribuição.
+4. Faça as alterações necessárias e commit.
+5. Envie suas alterações para o seu fork.
+6. Crie um Pull Request descrevendo suas alterações.
+
+Para mais detalhes sobre como contribuir, consulte o [Guia de Contribuição](./docs/pt-br/guide.md).
+
+---
+
+## Contato
+
+Para dúvidas ou sugestões, entre em contato através do email: contato@dec-b.org
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
 
