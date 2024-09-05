@@ -88,3 +88,4 @@ dist/
 .tern-port
 .vscode-test/
 .idea/
+*lock.json

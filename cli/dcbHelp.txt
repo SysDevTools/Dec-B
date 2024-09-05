@@ -1,0 +1,35 @@
+*Comando: dcb*
+
+Descrição: Este comando *inicia* o sistema Dec-B e permite gerenciar ciclos de versionamento como *init* e *release*.
+
+#Opções:
+--help: Exibe este manual.
+--version: Mostra a versão atual do Dec-B.
+
+*Ciclos disponíveis:*
+- *init*: Inicializa um novo repositório com a estrutura do Dec-B.
+- *release*: Gerencia um ciclo de release (inicialização, pull, push, rebase, tag).
+
+#Uso dos ciclos:
+
+1. *dcb init* [-u:<URL>] [-b:<branch>]
+    - Inicializa um novo repositório com a estrutura do Dec-B.
+    - *Parâmetros:*
+        - *-u:<URL>*: Define a URL do repositório remoto.
+        - *-b:<branch>*: Especifica a branch padrão (por padrão, 'develop').
+
+2. *dcb release* [init | pull | push | rebase | tag]
+    - Gerencia um ciclo de release.
+    - *Subcomandos:*
+        - *init*: Inicia um novo ciclo de release.
+        - *pull*: Realiza um pull da branch de release.
+        - *push*: Realiza um push da branch de release.
+        - *rebase*: Faz o rebase interativo da release para develop.
+        - *tag*: Cria uma tag para o ciclo de release.
+
+!Importante: sempre execute o comando com as permissões necessárias.!
+
+#Exemplos:
+1. *dcb init -u:https://github.com/usuario/repo.git -b:main*
+2. *dcb release init*
+

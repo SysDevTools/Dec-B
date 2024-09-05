@@ -1,48 +1,41 @@
 const inquirer = require('inquirer');
+const path = require('path');
 
 module.exports = async (args = [], commandLine = "dcb init") => {
     console.clear();
     console.log(`Comando até o momento: ${commandLine}`);
 
     // Analisando os parâmetros passados na linha de comando
-    const parsedArgs = {};
+    let projectStart = false;
+
     args.forEach(arg => {
         if (arg.startsWith('-u:')) {
-            parsedArgs.url = arg.split(':')[1];
+            const urlCommand = require(path.join(__dirname, 'param', 'url'));
+            commandLine = urlCommand(arg, commandLine);
         } else if (arg.startsWith('-b:')) {
-            parsedArgs.branch = arg.split(':')[1];
+            const branchCommand = require(path.join(__dirname, 'param', 'branch'));
+            commandLine = branchCommand(arg, commandLine);
+        } else if (arg === '--project-start') {
+            projectStart = true;
         }
     });
 
-    // Definindo as perguntas para os parâmetros que faltam
-    const questions = [];
-
-    if (!parsedArgs.url) {
-        questions.push({
-            type: 'input',
-            name: 'url',
-            message: 'Informe a URL do repositório remoto (ou deixe em branco para pular):',
-        });
+    // Caso algum parâmetro não tenha sido fornecido
+    if (!args.find(arg => arg.startsWith('-u:'))) {
+        const urlCommand = require(path.join(__dirname, 'param', 'url'));
+        commandLine = await urlCommand(null, commandLine);
     }
 
-    if (!parsedArgs.branch) {
-        questions.push({
-            type: 'input',
-            name: 'branch',
-            message: 'Informe a branch padrão (default: develop):',
-            default: 'develop',
-        });
+    if (!args.find(arg => arg.startsWith('-b:')) && !projectStart) {
+        const branchCommand = require(path.join(__dirname, 'param', 'branch'));
+        commandLine = await branchCommand(null, commandLine);
     }
 
-    // Coletando as respostas do usuário
-    const answers = await inquirer.prompt(questions);
-
-    const url = parsedArgs.url || answers.url || 'Nenhuma';
-    const branch = parsedArgs.branch || answers.branch || 'develop';
-
-    // Atualizando a linha de comando com os parâmetros fornecidos
-    if (url !== 'Nenhuma') commandLine += ` -u:${url}`;
-    if (branch !== 'develop') commandLine += ` -b:${branch}`;
+    // Lidando com `--project-start`
+    if (projectStart) {
+        const projectStartCommand = require(path.join(__dirname, 'param', 'project-start'));
+        commandLine = projectStartCommand(commandLine);
+    }
 
     // Exibindo a linha de comando atualizada
     console.clear();
@@ -51,5 +44,5 @@ module.exports = async (args = [], commandLine = "dcb init") => {
     // Finalizando e exibindo o comando completo
     console.log(`Comando final: ${commandLine}`);
 
-    // Aqui você pode adicionar o código para inicializar o repositório usando as variáveis `url` e `branch`
+    // Aqui você pode adicionar o código para inicializar o repositório usando as variáveis `url`, `branch`, etc.
 };

@@ -20,8 +20,16 @@ Verifica e prepara o repositório local e remoto, identificando ou criando as br
 - Verificar a existência de [tags](../README.md#tags) no repositório.
 - Adaptar o histórico do repositório conforme as tags existentes.
 
+### Configuração para Início de Projeto (`--project-start`)
+- Com o parâmetro `--project-start`, o `dcb init` executa as seguintes atividades adicionais:
+  - Criação e publicação da branch `main`.
+  - Criação e publicação da branch `develop` a partir da branch `main`.
+  - Configuração da branch `develop` como padrão para desenvolvimento.
+  - Configuração da branch `main` como branch principal para releases estáveis.
+
 ## Resultados Esperados
 - O repositório local e remoto são verificados e preparados.
 - As branches principais são criadas ou confirmadas.
 - O ambiente inicial de versionamento é configurado.
 - As tags existentes são verificadas e o histórico do repositório é adaptado.
+- Se o parâmetro `--project-start` for usado, as branches `main` e `develop` são criadas e publicadas automaticamente.
