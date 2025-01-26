@@ -1,3 +1,6 @@
+GIT_IGNORE/
+
+
 # Logs
 logs
 *.log
