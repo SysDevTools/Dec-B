@@ -79,7 +79,7 @@ Diferente dos workflows tradicionais, ele não exige merges diretos para sincron
 
 💡 > **"_O Dec-B não impõe regras fixas, mas organiza o histórico de forma rastreável sem limitar o fluxo de desenvolvimento._"**  
 
-🔎 Para mais detalhes sobre a abordagem do projeto, acesse **[o Dec-B comparado](./docs/pt-br/philosophy/comparison.md)**  
+🔎 Para mais detalhes sobre a abordagem do projeto, acesse **[O Dec-B comparado](./docs/pt-br/philosophy/comparison.md)**  
 
 ## Filosofia do Dec-B  
 
