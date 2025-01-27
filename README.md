@@ -97,7 +97,7 @@ O **Dec-B** foi projetado para resolver problemas comuns do [versionamento](./do
 
 🔎 Para mais detalhes sobre a filosofia do Dec-B, acesse **[Filosofia do Dec-B](./docs/pt-br/philosophy/philosophy.md)**.  
 
-## Como Funciona  
+## Como Funciona e por onde começar
 
 O **Dec-B** organiza o [versionamento](./docs/pt-br/dictionary.md#versionamento) de código em **ciclos estruturados**, garantindo um fluxo previsível e rastreável.  
 Em vez de apenas organizar branches por responsabilidade, o Dec-B estrutura o histórico do código em **ciclos de versionamento**, encapsulando processos recorrentes e reduzindo a complexidade manual.  
@@ -157,9 +157,21 @@ A interação com as branches ocorre de forma transparente na forma de comandos 
 
 ---
 
-### 📌 O Dec-B CLI (`dcb`) – Automação e Padronização  
+### 📌 Iniciando com o _Dec-B CLI_  
 
-O **Dec-B CLI (`dcb`)** é um [framework](./docs/pt-br/dictionary.md#framework) que **automatiza, padroniza e instrui** o usuário no uso do Git, garantindo que **todas as operações sigam um fluxo controlado e rastreável**.  
+▶️ O **Dec-B CLI (`dcb`)** é um [framework](./docs/pt-br/dictionary.md#framework) que **automatiza, padroniza e instrui** o usuário no uso do Git.
+
+ Está disponível via **NPM** no endereço [https://www.npmjs.com/package/@sysdevtools/decb](https://www.npmjs.com/package/@sysdevtools/decb)
+
+A instalaçao pode ser feita pelo comando:
+
+```bash
+npm install -g dcb@cli
+```
+
+A partir da instalação, os comandos de manipulação de repositórios será feita pelo CLI diretamente.
+
+💡 > **"_Com o Dec-B CLI, o workflow se torna automatizado, garantindo versionamento previsível e rastreável._"**  
 
 ---
 
@@ -174,29 +186,6 @@ O **Dec-B CLI (`dcb`)** é um [framework](./docs/pt-br/dictionary.md#framework) 
 💡 > **"Se você sabe o fluxo, pode rodar tudo em uma linha. Se não sabe, o CLI pergunta apenas o necessário e te ensina durante o uso. Se esqueceu de um pré-requisito, o CLI o aplica na execução do comando."**  
 
 🔎 Para detalhes técnicos sobre o CLI do Dec-B, acesse **[Documentação do Dec-B CLI](./cli/README.md)**.  
-
-## Por Onde Começar  
-
-O **Dec-B** pode ser adotado de duas formas, dependendo do nível de automação e controle desejado para o versionamento do seu projeto.  
-
-### ▶️ Uso do Dec-B Apenas como Workflow  
-
-Se você deseja apenas seguir o **workflow do Dec-B** sem automação, pode aplicá-lo manualmente, utilizando as diretrizes e estrutura recomendada para **branches e ciclos de versionamento**.  
-
-🔹 **Guia de Uso do Workflow Dec-B** → [Acesse a documentação](./docs/pt-br/adoption/workflow_guide.md)  
-
-💡 > **"_O workflow do Dec-B pode ser seguido manualmente, garantindo organização e rastreabilidade sem necessidade de ferramentas externas._"**  
-
----
-
-### ▶️ Automação do Workflow com o Dec-B CLI  
-
-Se desejar **automatizar o controle de branches e ciclos de versionamento**, o **Dec-B CLI (`dcb`)** fornece comandos padronizados e assistentes interativos, garantindo **execução consistente e rastreável** das práticas do Dec-B. O CLI pode ser instalado via NPM e aplicado diretamente no fluxo de desenvolvimento.  
-
-🔹 **Guia de Implantação com Dec-B CLI** → [Acesse a documentação](./docs/pt-br/adoption/cli_usage.md)  
-🔹 **Instalação do Dec-B CLI** → Disponível via [NPM](https://www.npmjs.com/package/@sysdevtools/dec-b-cli)  
-
-💡 > **"_Com o Dec-B CLI, o workflow se torna automatizado, garantindo versionamento previsível e rastreável._"**  
 
 ## Integração com _FlowED_
 
